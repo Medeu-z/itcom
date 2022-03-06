@@ -38,6 +38,6 @@
     </div>
     <p class="ph">Already have an account? <a href="login.html">Login here</a></p>
 
-
+<!--<label>zhaniya zhaman kyz</label>-->
 </body>
 </html>
