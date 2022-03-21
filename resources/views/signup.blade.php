@@ -15,19 +15,19 @@
         <h1>Sign Up</h1>
 <form>
     <!--<label>First Name</label>-->
-    <input type="text" placeholder="First Name">
+    <input type="text" placeholder="First Name" name="first_name" required>
 
    <!-- <label>Last Name</label> -->
 
-    <input type="text" placeholder="Last Name">
+    <input type="text" placeholder="Last Name" name="second_name" required>
      <!--<label>NickName</label>-->
-    <input type="text" placeholder="NickName">
+    <input type="text" placeholder="NickName" name="nickname" required>
 
     <!--<label>Email</label>-->
-    <input type="email" placeholder="Email">
+    <input type="email" placeholder="Email" name="email" required>
 
     <!--<label>Password</label>-->
-    <input type="password" placeholder="Password">
+    <input type="password" placeholder="Password" name="password" required>
 
 
     <!--<label>Confirm Password</label>-->

@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="login-box">
-<h1>Login</h1>s
+<h1>Login</h1>
 <form>
 	<!--<label>Email/NickName</label>-->
 	<input type="email" placeholder="Email">
