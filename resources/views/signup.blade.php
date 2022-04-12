@@ -36,7 +36,7 @@
 </form>
 
     </div>
-    <p class="ph">Already have an account? <a href="login.html">Login here</a></p>
+    <p class="ph">Already have an account? <a href="login">Login here</a></p>
 
 </body>
 </html>

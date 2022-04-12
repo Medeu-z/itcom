@@ -19,7 +19,7 @@
 	<input type="button" value="Submit">
 </form>
 </div>
-<p class="ph">Not have an account? <a href="index.html">Sign Up Here</a></p>
+<p class="ph">Not have an account? <a href="signup">Sign Up Here</a></p>
 
 	</body>
 	</html>

@@ -1,0 +1,275 @@
+/**.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+**/
+  body {
+    background-color: #E5E5E5; /** цвет всего тела не включая контейнер*/
+    
+
+}
+
+.card {
+    
+    max-width: 75rem; /**менять размер контейнера*/
+    padding: 0;
+    border: none;
+    border-radius: 0.5rem;
+    height: 35rem;
+    
+}
+.container-fluid { /** чтобы менять сам контейнер*/
+    position: fixed;
+    top: 85px;
+    right: 12px;
+}
+.mt-4{
+    background-color: #E5E5E5;
+
+   
+    
+   
+}
+
+a.active {
+    border-bottom: 2px solid #55c57a
+}
+
+
+.nav-link {
+    color: black;
+    font-weight: 500;
+    margin-left: 150px;
+    
+    
+    
+    
+
+}
+.nav-item{
+    padding-right: -15rem;
+}
+
+.nav-link:hover {
+    color: darkgrey;
+}
+
+.nav-pills .nav-link.active {
+    color: black;
+    background-color: #E5E5E5;
+    border-radius: 0.5rem 0.5rem 0 0;
+    font-weight: 600;
+    
+}
+
+.tab-content { /**то что внутри коробки текст расположение типо about*/
+    padding-bottom: 1.3rem;
+   
+}
+
+.form-control {
+    background-color: #E5E5E5;
+    border: none;
+    
+
+}
+
+.third {
+    padding: 0 1.5rem 0 1.5rem
+}
+
+label {
+    font-weight: 500;
+    color: rgb(104, 104, 104);
+    
+}
+
+.btn-success {
+    float: right
+}
+
+.form-control:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 7px rgba(0, 0, 0, 0.2);
+    top: 50%;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: ""
+}
+
+ul {
+    list-style: none;
+    margin-top: 1rem;
+    padding-inline-start: 0;
+    
+}
+
+
+.ccontent li .wrapp {
+    padding: 0.3rem 1rem 0.001rem 1rem;
+    
+    
+}
+
+.ccontent li .wrapp div {
+    font-weight: 600;
+    
+}
+
+.ccontent li .wrapp p {
+    font-weight: 360
+}
+
+
+.addinfo {
+    padding: 0 1rem
+}
+
+.navbar{
+    background-color: #344A72;
+    width:100%;
+    overflow: auto;
+    height: 10%;
+}
+.fa-fw{
+    color: white;
+    
+    
+}
+.navbar a {
+    float:center;
+    
+    padding: 10px;
+    color: #E5E5E5;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  /* Navbar links on mouse-over */
+
+  
+  /* Current/active navbar link */
+
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  .fa-plus{
+    position: absolute;
+    left: 0;
+    margin-right: 13%;
+    top: 1rem;
+    bottom: 50rem;
+  }
+  .fa-bell{
+    position: relative;
+    left: 0%;
+    margin-right: 10%;
+    top:  -11rem;
+    bottom: 20px;
+    
+  }
+  .fa-user{
+    position:relative;
+    left: 0%;
+    margin-right: 10%;
+    top:  1rem;
+    bottom: 15rem;
+    
+  }
+  .navbar-brand{
+      position: relative;
+      left:18px;
+      top: 0;    
+  }
+  .dropdown{
+    display: block;
+    position: absolute;
+    left: 85%;
+    margin-right: 13%;
+    top: 30%;
+    bottom: 45%;
+
+}
+.navbar{
+    height: 15%;
+    top: 0;
+    position: absolute;
+}
+
+.img-fluid{
+    height: 220px;
+    width: 220px;
+    margin-right:55rem;
+    margin-left:-29rem;
+    margin-top: 7rem;
+}
+.hed {
+    margin-right: -1px;
+    padding: 1.5px;
+    margin-left:50px;
+    
+}
+.ter{
+    margin-right: -1px;
+    padding: none;
+    padding-top:none;
+    margin-left:95px;
+    color: grey;
+}
+.checked {
+    color: rgb(207, 207, 32);
+  }
+  .stars{
+      margin-left:87px;
+  }
+.btn-primary{
+    margin-left: 65px;
+    width: 150px;
+    height:30px;
+    background-color: #344A72;
+    padding:0;
+
+
+
+  }
+  .baton{
+      padding-top: 15px;
+  }
