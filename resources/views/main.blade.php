@@ -8,5 +8,10 @@
 </head>
 <body>
     <h1>main page </h1>
+    <div> 
+            <button><a href="{{ route('user.login') }}">Log In</a></button><br>
+            <button><a href="{{ route('user.signup') }}">Sign Up</a></button>
+        </div>
+       
 </body>
 </html>

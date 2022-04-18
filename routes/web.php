@@ -16,16 +16,35 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('main');
 });
-Route::get('/signup', function () {
-    return view('signup');
-});
-Route::get('/login', function () {
-    return view('login');
+
+Route::name('user.')->group(function() {
+    Route::view('/private', 'afterlogin')->middleware('auth')->name('private');
+
+    Route::get('/login', function () {
+        if(Auth::check()){
+            return redirect(route('user.private'));
+        }
+        return view('login');
+    })->name('login');
+
+    Route::post('/login', [\App\Http\Controllers\LoginController::class, 'login']);
+
+    Route::get('/logout', function(){
+        Auth::logout();
+        return redirect('/');
+    })->name('logout');
+
+    Route::get('/signup', function () {
+        if(Auth::check()){
+            return redirect(route('user.private'));
+        }
+        return view('signup');
+    })->name('signup');
+
+    Route::post('/signup', [\App\Http\Controllers\SignUpController::class, 'save']);
 });
 
-Route::get('loginer', function () {
-    return view('afterlogin');
-});
+
 
 Route::get('/aboutus', function () {
     return view('aboutus');

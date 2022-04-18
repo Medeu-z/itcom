@@ -7,6 +7,12 @@
     <title>after login opage  </title>
 </head>
 <body>
-    
+    <div class="signup-box">
+
+    <h1>Private account</h1>
+
+    <a href="{{ route('user.logout') }}">LogOut</a>
+
+    </div>
 </body>
 </html>

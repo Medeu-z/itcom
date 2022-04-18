@@ -5,9 +5,8 @@ body{
 .signup-box{
 
 	width: 360px;
-	height:500px ;
 	margin: auto;
-	margin-top: 100px;
+	margin-top: 10px;
 	background-color: white;
 	border-radius: 15px;
 }
@@ -46,10 +45,11 @@ form input{
 	outline: none;
 	font-size: 13px;
 }
-input[type="button"]{
+input[type="submit"]{
 	width: 320px;
 	height: 35px;
-	margin-top: 30px;
+	margin-top: 25px;
+	margin-bottom: 50px;
 	border: none;
 	background-color:#425E92;
 	color: white;
@@ -68,6 +68,28 @@ input[type="button"]{
 
 
 
+.popover{
+    
+    border-color: #ffaf2d;
+    color: black;
+}
+.popover-title{
+    background-color: #ffaf2d;
+    border-color: #ffaf2d;
+    color: black;
+}
+
+.icons{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+.icons i{
+	position: absolute;
+	top: 35%;
+	left: 92%;
+	font-size:12px
+}
 
 
 
